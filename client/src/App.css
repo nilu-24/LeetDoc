@@ -53,6 +53,11 @@ hr{
 
 }
 
+.timer-button:hover{
+  background-color: #fbe4b6;
+}
+
+
 
 textarea{
   
@@ -187,6 +192,14 @@ margin-left: 10px;
 .note{
   margin-bottom: 20px;
   font-size: large;
+}
+
+.note:hover{
+  background-color: #fbe4b6;
+}
+
+.drawing-pad:hover{
+  background-color: #fbe4b6;
 }
 
 

@@ -54,11 +54,10 @@ function App() {
   return (
     <div className="App">
     <h1 style={{fontSize:"40px"}}>Leet<span style={{color:"#DC582A"}}>Doc</span> <i class="fa-solid fa-file-code"></i></h1>
-    <p style={{color: "#FFD580",width:"80%",marginLeft:"auto",marginRight:"auto"}}>The IDE to help you grind LeetCode & prepare for coding interviews.</p>
+    <p style={{color: "#FFD580",width:"80%",marginLeft:"auto",marginRight:"auto"}}>The IDE to help you grind LeetCode & crack the coding interview.</p>
 
     <Timer/>
 
-    
     <p>Enter LeetCode Problem Tag:</p>
 
     <input className="search" style={{marginBottom:"5px"}} value={url} onChange={(e)=>{
@@ -93,7 +92,7 @@ function App() {
 <hr></hr>
 
 <h2>{title}</h2>
-<h3 style={{color:"orange"}}>{difficulty}</h3>
+<h3 style={{color:"pink"}}>{difficulty}</h3>
 
 <div className="code-body">
 {RenderHTML(problem)}
@@ -119,7 +118,6 @@ function App() {
 
 <div style={{paddingBottom:"10px"}}><img alt="language" style={{height:"50px",
 width:"50px"}} src={languageMap[language]}/></div>
-
 
 
 <select value= {language} onChange={(e)=>{

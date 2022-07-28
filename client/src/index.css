@@ -51,6 +51,7 @@ pre{ white-space: pre-wrap;
   #p-languages{
     padding: 8px;
     border-radius: 5px;
+    font-family: 'Fira Code';
     font-weight: 600;
     background-color: aliceblue;
     cursor: pointer;
@@ -87,4 +88,9 @@ pre{ white-space: pre-wrap;
     background-color: red;
     color: white;
     border: 1px solid white;
+  }
+
+
+  .search{
+    font-family: 'Ubuntu';
   }
