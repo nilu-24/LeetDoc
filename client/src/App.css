@@ -1,0 +1,215 @@
+.App,html {
+  text-align: center;
+  background-color: rgb(71, 71, 71);
+  color: white;
+  font-family: 'Ubuntu';
+}
+
+
+.timer{
+   position: fixed;
+   top: 0;
+   margin-left:90%;
+   font-size: 1.5vw;
+   margin-right: 5%;
+   background-color: black;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .timer{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    background-color: rgb(71, 71, 71);
+
+  }
+
+  #slider{
+    width: fit-content;
+  }
+
+  .timer-button{
+    padding: 2vh;
+    font-size: 2vh;
+
+  }
+
+}
+
+hr{
+  width: 70%;
+}
+
+
+.timer-button{
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+
+}
+
+
+textarea{
+  
+  margin-top: 30px;
+  font-size: 20px;
+  width: 70%;
+  height: 300px;
+  display:"inline";
+  font-family: 'Arial';
+  box-shadow:  0 0 3px 3px rgb(204, 204, 204);
+  outline: none;
+  border: none;
+  padding: 30px;
+}
+
+#goal{
+
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid green;
+  font-size: 18px;
+}
+
+.code-body{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 50px;
+}
+
+.search{
+  margin-right: 5px;
+padding: 10px;
+}
+
+button{
+  background-color:aliceblue;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 11.5px;
+  font-weight: 500;
+  font-family: 'Ubuntu';
+}
+
+
+.code-submit{
+  margin-top: 10px;
+}
+
+.help-yt{
+  color: white;
+  background-color: #FF0000;
+  margin-right: 10px ;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 5vh;
+  border-radius: 15px;
+  border: none;
+
+
+}
+
+.help-google{
+
+  color: white;
+  background-color: #0F9D58;
+  margin-right: 10px ;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 5vh;
+  border-radius: 15px;
+  border: none;
+
+
+}
+.yt,.google{
+  text-decoration: none;
+  color: white;
+}
+
+.color{
+
+  height: 5vh;
+  width: 5vh;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 10px;
+margin-left: 10px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 5px;
+
+}
+
+.color:hover{
+  border: 3px white solid;
+}
+
+.canvas-button{
+  border: none;
+  background-color: grey;
+  color: white;
+  border: black 2px solid;
+  margin-right: 5px;
+  cursor: pointer;
+  padding: 1vh;
+  margin-bottom: 10px;
+}
+
+.thickness{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  margin-right: 20px;
+
+  margin-left: 10px;
+}
+
+
+.drawing-pad{
+  margin-right: 10px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+
+
+.note{
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+
+#note{
+  background-color: beige;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+
+}
+
+.ide{
+
+  margin-top: 70px;
+}
+
+.brainstorm{
+
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.get{
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
