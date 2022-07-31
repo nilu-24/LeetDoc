@@ -16,11 +16,12 @@ code {
 
 pre{ white-space: pre-wrap;
   word-wrap: break-word;
-  background-color:aliceblue;
+  background-color:rgb(27, 27, 27);
+  color: white;
   border-radius: 5px;
   padding: 15px;
   border: 1px solid black;
-  color: black;
+  border: 1px solid white;
   font-size: larger;
 }
 
@@ -93,4 +94,9 @@ pre{ white-space: pre-wrap;
 
   .search{
     font-family: 'Ubuntu';
+  }
+
+
+  a{
+    color: white;
   }

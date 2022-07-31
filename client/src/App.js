@@ -59,6 +59,8 @@ function App() {
     <Timer/>
 
     <p>Enter LeetCode Problem Tag:</p>
+    <p>e.g. for the URL - leetcode.com/problems/<span style={{color:"yellowgreen"}}>two-sum</span>/ </p>
+    <p><span style={{color:"yellowgreen"}}>two-sum</span> is the Problem Tag.</p>
 
     <input className="search" style={{marginBottom:"5px"}} value={url} onChange={(e)=>{
       setUrl(e.target.value);
