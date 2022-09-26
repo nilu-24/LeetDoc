@@ -2,6 +2,8 @@
 
 Online IDE to help you grind LeetCode & crack the coding interview.
 
+Try it out: https://leetdoc.netlify.app/
+
 RESTful Flask Web Scraper API backend: [https://github.com/nilu-24/leetcode-scraper-api](https://github.com/nilu-24/leetcode-scraper-api)
 
 Lately, I’ve been grinding some leetcode problems and I decided to create an application which enhances the problem solving process and makes it more effective.
@@ -24,7 +26,6 @@ I will add more features soon and if you have any ideas please share!
 
 If you’re struggling with technical interview preparation, keep the grind up, be patient, take care of yourselves and maintain consistency. You got this!
 
-Try it out: https://leetdoc.netlify.app/
 
 
 https://user-images.githubusercontent.com/73608018/185623570-43d1be2b-9119-4d57-b857-00a8ffd550e4.mp4
