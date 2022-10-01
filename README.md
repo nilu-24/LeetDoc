@@ -1,4 +1,4 @@
-# LeetDoc
+# LeetDoc - Coding Interview Preparation Platform
 
 Online IDE to help you grind LeetCode & crack the coding interview.
 
