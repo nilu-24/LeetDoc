@@ -28,7 +28,11 @@ I will add more features soon and if you have any ideas please share!
 
 If you’re struggling with technical interview preparation, keep the grind up, be patient, take care of yourselves and maintain consistency. You got this!
 
+# Technical Details
 
+- Created a full-stack coding interview platform to help people practice technical interview problems in a more effective way.
 
+- Implemented a RESTful Flask API backend to scrape all 2,300+ LeetCode questions using Beautiful Soup (bs4).
 
+- Built a timer, drawing-pad and code compiler supporting 5 languages with React.js and a Node.js REST API (later used Piston API).
 
